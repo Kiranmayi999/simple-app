@@ -2,14 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Kiranmayi999/simple-app.git'
-            }
-        }
         stage('Build') {
             steps {
-                echo 'No build needed for this simple app'
+                echo 'No build step for now'
             }
         }
         stage('Test') {
@@ -23,7 +18,7 @@ pipeline {
             }
             steps {
                 echo 'Deploying Simple App...'
-                // Add deploy commands here if you want
+                // Add real deploy command here if needed
             }
         }
     }
