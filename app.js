@@ -1,1 +1,1 @@
-console.log("Hello from Simple App!");
+console.log("Updated version - Hello again!");
