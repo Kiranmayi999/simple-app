@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kiranmayi999/simple-app.git'
+                git 'https://github.com/Kiranmayi999/simple-app.git'
             }
         }
         stage('Build') {
